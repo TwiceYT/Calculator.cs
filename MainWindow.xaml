@@ -1,0 +1,31 @@
+﻿<Window x:Class="Calcylator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calcylator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="370" Width="470">
+    <Grid Margin="0,0,0,-16">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BtnNr1" Content="1" HorizontalAlignment="Left" Margin="16,79,0,0" VerticalAlignment="Top" Height="51" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr4" Content="4" HorizontalAlignment="Left" Margin="16,137,0,0" VerticalAlignment="Top" Height="50" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr5" Content="5" HorizontalAlignment="Left" Margin="126,137,0,0" VerticalAlignment="Top" Height="50" Width="101" Background="#FFFFAE00" RenderTransformOrigin="0.467,0.501" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr2" Content="2" HorizontalAlignment="Left" Margin="126,79,0,0" VerticalAlignment="Top" Height="51" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr3" Content="3" HorizontalAlignment="Left" Margin="238,79,0,0" VerticalAlignment="Top" Height="51" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr6" Content="6" HorizontalAlignment="Left" Margin="238,137,0,0" VerticalAlignment="Top" Height="50" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr7" Content="7" HorizontalAlignment="Left" Margin="16,192,0,0" VerticalAlignment="Top" Height="50" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr8" Content="8" HorizontalAlignment="Left" Margin="126,192,0,0" VerticalAlignment="Top" Height="50" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BrnNr9" Content="9" HorizontalAlignment="Left" Margin="238,192,0,0" VerticalAlignment="Top" Height="50" Width="101" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnNr0" Content="0" HorizontalAlignment="Left" Margin="16,247,0,0" VerticalAlignment="Top" Height="50" Width="211" Background="#FFFFAE00" FontSize="18" Click="ButtonNr_click"/>
+        <Button x:Name="BtnDIV" Content="÷" HorizontalAlignment="Left" Margin="346,79,0,0" VerticalAlignment="Top" Height="51" Width="98" Background="#FFBBBBBB" FontSize="24" Click="Btndivision"/>
+        <Button x:Name="BtnMulti" Content="X" HorizontalAlignment="Left" Margin="346,137,0,0" VerticalAlignment="Top" Height="50" Width="98" Background="#FFBBBBBB" FontSize="18" Click="Btnmulti"/>
+        <Button x:Name="BtnReset" Content="Clear&#xD;&#xA;" HorizontalAlignment="Left" Margin="16,49,0,0" VerticalAlignment="Top" Width="428" Height="25" Click="Btnclear"/>
+        <Button x:Name="BtnMinus" Content="-" HorizontalAlignment="Left" Margin="346,190,0,0" VerticalAlignment="Top" Height="50" Width="98" Background="#FFBBBBBB" FontSize="24" Click="Btnminus"/>
+        <Button x:Name="BtnPlus" Content="+" HorizontalAlignment="Left" Margin="346,245,0,0" VerticalAlignment="Top" Height="50" Width="98" Background="#FFBBBBBB" FontSize="24" Click="Btnplus"/>
+        <Button x:Name="BtnLikamed" Content="=" HorizontalAlignment="Left" Margin="16,302,0,0" VerticalAlignment="Top" Width="430" FontSize="20" Height="28" Click="BtnEql"/>
+        <TextBox x:Name="Txtsvar" HorizontalAlignment="Left" Margin="16,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Height="34" Background="#FFE9E9E9" FontSize="22" Text=""/>
+    </Grid>
+</Window>
